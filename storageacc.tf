@@ -4,7 +4,7 @@ provider "azurerm" {
 
 # Data source to fetch information about an existing Azure resource group
 data "azurerm_resource_group" "existing" {
-  name = CST8918-IAC" # Name of the existing resource group
+  name = "CST8918-IAC" # Name of the existing resource group
 }
 
 # Resource block to create an Azure Storage Account
